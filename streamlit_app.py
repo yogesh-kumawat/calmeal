@@ -30,7 +30,7 @@ def input_image_setup(uploaded_file):
 
 
 st.set_page_config(page_title="CalMeal APP")
-st.header("Know Your Food")
+st.header("Know Your Food!!!")
 
 uploaded_file = st.file_uploader("Choose your meal image..", type=["jpg", "jpeg", "png"])
 image = None
